@@ -8,11 +8,11 @@ Roshna K, Nikhil Fernandes, P. Praveen, and V. Sreenath,
 
 ## About this code
 
-1. This code consists of two Python files, viz. `pantheonplussh0es_analysis.py` (the main analysis program) and `getdist_plotter.py` (used for plotting and comparing the results).
+1. This code consists of two Python files, namely `pantheonplussh0es_analysis.py` (the main analysis code) and `getdist_plotter.py` (used for plotting ).
 
 2. The file `pantheonplussh0es_analysis.py` performs the analysis of dark-energy models using the PantheonPlus and SH0ES (PPS) dataset. It implements the generalized least-squares (GLS) method, Jackknife and Bootstrap resampling techniques, and Bayesian methods using `emcee` and `PolyChord`.
 
-3. The code supports several dark-energy models, namely flat ΛCDM, ΛCDM, flat wCDM, wCDM, and flat w₀wₐCDM. The model to be analyzed can be selected in the main program.
+3. The code can be used to analyse dark-energy models, such as flat $$\Lambda$$CDM, ΛCDM, flat wCDM, wCDM, and flat w₀wₐCDM. The model to be analyzed can be selected in the main program.
 
 4. The `getdist_plotter.py` file is used to generate corner plots and compare the parameter constraints obtained from GLS, Jackknife, Bootstrap, and Bayesian methods.
 
