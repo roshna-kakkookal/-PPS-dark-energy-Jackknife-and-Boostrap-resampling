@@ -16,6 +16,4 @@ Roshna K, Nikhil Fernandes, P. Praveen, and V. Sreenath,
 
 4. The `getdist_plotter.py` file is used to generate corner plots and compare the parameter constraints obtained from GLS, Jackknife, Bootstrap, and Bayesian methods.
 
-5. The Jackknife and Bootstrap routines are used to investigate the effect of resampling on the parameter estimates and their uncertainties. The Bootstrap analysis uses 1000 resampled datasets, while the Jackknife analysis is performed by systematically resampling the dataset.
-
-6. The code requires the PantheonPlus and SH0ES data files, together with their covariance matrix, as input. The relevant data files should be placed in the appropriate location before running the analysis.
+5. The code requires the PantheonPlus and SH0ES data files, together with their covariance matrix. The relevant data files should be placed in the appropriate location before running the analysis.
