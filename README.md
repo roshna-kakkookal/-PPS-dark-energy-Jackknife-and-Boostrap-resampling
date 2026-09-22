@@ -36,6 +36,12 @@ This code requires Python and the following Python packages:
 
 ## Running the code
 
+Before running the code, select the dark-energy model and analysis method in `pantheonplussh0es_analysis.py`. For example:
+
+```python
+model = 'flat LCDM'
+method = 'GLS'
+
 In order to run the code, type the following:
 
 ''python -u pantheonplussh0es_analysis.py 1>flcdm_gls.out 2>flcdm_gls.err''
