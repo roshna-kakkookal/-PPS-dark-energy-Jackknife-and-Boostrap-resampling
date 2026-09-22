@@ -17,3 +17,28 @@ Roshna K, Nikhil Fernandes, P. Praveen, and V. Sreenath,
 4. The `getdist_plotter.py` file is used to generate corner plots and compare the parameter constraints obtained from GLS, Jackknife, Bootstrap, and Bayesian methods.
 
 5. The code requires the PantheonPlus and SH0ES data files, together with their covariance matrix. The relevant data files should be placed in the appropriate location before running the analysis.
+
+
+## Requirements
+
+This code requires Python and the following Python packages:
+
+- NumPy
+- Pandas
+- SciPy
+- Matplotlib
+- pybobyqa
+- emcee
+- GetDist
+- PolyChord
+- seaborn
+
+
+## Running the code
+
+In order to run the code, type the following:
+
+''python -u pantheonplussh0es_analysis.py 1>flcdm_gls.out 2>flcdm_gls.err''
+
+
+
