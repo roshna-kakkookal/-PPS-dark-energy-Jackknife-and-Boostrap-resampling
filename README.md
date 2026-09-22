@@ -3,6 +3,5 @@ This is code for the analysis of dark-energy models using the PantheonPlus and S
 
 ## Using this code
 You can use this code provided that you cite the paper in your publications:
-**Roshna K, Nikhil Fernandes, P. Praveen, and V. Sreenath,  
-"Constraining dark energy models using Jackknife and Bootstrap resampling."**
-https://arxiv.org/abs/2601.16197
+Roshna K, Nikhil Fernandes, P. Praveen, and V. Sreenath, \hyperlink{https://arxiv.org/abs/2601.16197
+}{"Constraining dark energy models using Jackknife and Bootstrap resampling."}
